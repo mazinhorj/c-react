@@ -6,7 +6,8 @@ const Challenge = (a, b) => {
 
     return (
         <div>
-            <p>A soma entre {a} + {b} é igual a {result}</p>
+            <h1>A soma entre {a} + {b} é igual a ... </h1>
+            <button onClick={Challenge}>Clique aqui e veja o resultado no console!</button>
         </div>
     )
 };
