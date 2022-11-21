@@ -1,0 +1,7 @@
+p.mcp {
+    color: blue;
+}
+
+
+
+/* para estilizar um componente sem vazar sua regra css deve-se aplicar uma classe ao elemento no componente */

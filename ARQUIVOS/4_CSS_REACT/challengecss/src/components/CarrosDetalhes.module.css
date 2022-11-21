@@ -1,0 +1,28 @@
+.single_car {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 250px;
+    background-color: #d8d7d7;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.229);
+    text-align: justify;
+    opacity: 0.8;
+}
+
+.single_car:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.single_car h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #646464;
+    text-shadow: 1px 1px 1px black;
+}
+
+.single_car ul {
+    list-style: none;
+}
