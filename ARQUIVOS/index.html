@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axios II</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="js/global.js" defer></script> -->
+    <!-- usar uma ou outra, evita-se utilizar as 2 ao mesmo tempo -->
+    <script src="js/custom.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <h1>Axios 2</h1>
+    <form id="post_form">
+      <div>
+        <input
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Título do post"
+        />
+      </div>
+      <div>
+        <textarea
+          name="body"
+          id="body"
+          placeholder="Conteúdo do post"
+        ></textarea>
+      </div>
+      <input type="submit" value="Criar Post" />
+    </form>
+    <h2>Pegando dados da API com o DOM</h2>
+    <div id="user_container">
+
+    </div>
+  </body>
+</html>
